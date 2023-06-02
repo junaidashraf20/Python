@@ -1,0 +1,82 @@
+print("__________________________________________________")
+print("Indexing and slicing")
+word="worksbot"
+print(word)
+print(word[2])
+print(word[2:5])
+print(word[-1:-len(word)-1:-1])
+print("reverse word---",word[-1::-1])  #another way to reveerse
+
+print("__________________________________________________")
+print("string convertions")
+a="hello"
+b=list(a)#str to list
+c=tuple(a)#str to tuple
+d=set(a)#str to set
+e=dict(zip(a,a))#str to dict
+f=bool(a)#str to bool
+print("string:",a,"\nList:",b,"\nTuple:",c,"\nSet:",d,"\nDict:",e,"\nBool:",f)
+print("____________________________________________________")
+print("Integer convertions")
+g=int(10)
+h=float(g)
+i=str(g)
+j=bool(g)
+j1=complex(g)
+print("Int:",g,"\nFloat:",h,"\nstring:",i,"\nBool:",j,"\nComplex:",j1)
+print("____________________________________________________")
+print("float conversions")
+k=5.5
+l=int(k)
+m=str(k)
+n=bool(k)
+n1=complex(k)
+print("Float:",k,"\nInt:",l,"\nstring:",m,"\nBool:",n,"\nComplex::",n1)
+print("____________________________________________________")
+print("sequence type convertion")
+print("list convertions")
+o=[1,2,3,4,5]
+p=str(o)
+q=tuple(o)
+r=set(o)
+s=dict(zip(o,o))
+print("List:",o,"\nstring:",p,"\nTuple:",q,"\nSet:",r,"\nDict:",s)
+print("____________________________________________________")
+print("Tuple convertions")
+t=(1,2,3,4,5)
+u=str(t)
+v=list(t)
+w=set(t)
+x=dict(zip(t,t))
+print("Tuple:",t,"\nstring:",u,"\nList:",v,"\nSet:",w,"\nDict:",x)
+print("___________________________________________________")
+print("set convertions")
+y={1,2,3,4,5}
+z=str(y)
+a1=list(y)
+a2=tuple(y)
+a3=dict(zip(y,y))
+print("Set:",y,"\nstring:",z,"\nList:",a1,"\nTuple:",a2,"\nDict:",a3)
+print("___________________________________________________")
+print("dict convertions")
+a4={1:2,3:4,5:6}
+a5=str(a4)
+a6=list(a4)
+a7=tuple(a4)
+a8=set(a4)
+print("Dict:",a4,"\nstring:",a5,"\nList:",a6,"\nTuple:",a7,"\nSet:",a8)
+print("__________________________________________________")
+print("boolean converstions")
+b1=True
+b2=int(b1)
+b3=float(b1)
+b4=str(b1)
+b5=complex(b1)
+print("Bool:",b1,"\nInt:",b2,"\nFloat:",b3,"\nstring:",b4,"\nComplex:",b5)
+print("__________________________________________________")
+print("complex convertions")
+c1=complex(2+3j)
+c2=str(c1)
+c3=bool(c1)
+##cannot be converted to int and float
+print("Complex:",c1,"\nstring:",c2,"\nBool:",c3,"\n")
